@@ -136,6 +136,7 @@ get:
       description: successful operation
       schema:
         type: array
-        items: string
+        items:
+          $ref: '#/definitions/Sound'
     '400':
       description: Invalid status value

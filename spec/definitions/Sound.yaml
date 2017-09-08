@@ -1,0 +1,12 @@
+type: "object"
+properties:
+  id:
+    description: "The sound’s unique identifier."
+    type: "integer"
+    format: "int64"
+  url:
+    description: "The URI for this sound on the Freesound website."
+    type: "string"
+  name:
+    description: "The name user gave to the sound."
+    type: "string"

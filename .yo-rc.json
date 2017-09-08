@@ -1,0 +1,10 @@
+{
+  "generator-openapi-repo": {
+    "importExistingSpec": false,
+    "name": "Freesound",
+    "repo": "miguel76/freesound-openapi",
+    "splitSpec": true,
+    "samples": true,
+    "installSwaggerUI": true
+  }
+}

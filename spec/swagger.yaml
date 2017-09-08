@@ -1,0 +1,36 @@
+swagger: '2.0'
+info:
+  description: >-
+    With the Freesound APIv2 you can browse, search, and retrieve information
+    about Freesound users, packs, and the sounds themselves of course. You can
+    find similar sounds to a given target (based on content analysis) and
+    retrieve automatically extracted features from audio files, as well as
+    perform advanced queries combining content analysis features and other
+    metadata (tags, etc...). With the Freesound APIv2, you can also upload,
+    comment, rate and bookmark sounds!
+  version: 2.0.0
+  title: Freesound
+  termsOfService: 'http://freesound.org/help/tos_api/'
+  contact:
+    url: 'http://groups.google.com/group/freesound-api'
+  license:
+    name: GNU Affero General Public License v3.0
+    url: 'https://www.gnu.org/licenses/agpl-3.0.html'
+host: www.freesound.org
+basePath: /apiv2
+tags:
+  - name: search
+    description: Search resources
+  - name: sound
+    description: Sound resources
+  - name: user
+    description: User resources
+  - name: pack
+    description: Pack resources
+  - name: other
+    description: Other resources
+schemes:
+  - http
+externalDocs:
+  description: Find out more about Freesound
+  url: 'https://freesound.org/docs/api/index.html'
